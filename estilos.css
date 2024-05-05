@@ -1,0 +1,50 @@
+/* p {
+    .ColorPrincipal();
+  } */
+  
+  .ColorPrincipal {
+    color: black;
+    font-weight: bold;
+  }
+nav ul {
+    list-style:inside;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:first baseline ;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+font-weight: bold;
+}
+
+nav a:hover {
+    color: #666;
+}
+
+.textoCentrado {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 10vh; 
+}
+.imagenDerecha {
+    float:right;
+    margin: 0 0 20px 200px;
+  }
+
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container img {
+    width: 50%;
+  }
